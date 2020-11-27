@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: brown;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 3em;
+}
+
+body,
+html {
+  height: calc(100% - 4em);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper > div {
+  flex: 1 1 200px;
+}
+
+img {
+  float: center;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+div {
+  margin: 25px;
+}
